@@ -74,7 +74,7 @@
       }
       
 
-      @media (max-width: 768px) {
+      @media (max-width: 720px) {
         .containerStatus{
           flex-direction: column;
           /* border :2px solid green; */

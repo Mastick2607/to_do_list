@@ -49,22 +49,22 @@
     margin: 0; /* Elimina el margen predeterminado del hr */
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 720px) {
     .agregar {
       width: 94%;
-      font-size: 25px;
-      height: 50px;
+      font-size: 20px;
+      height: 40px;
       /* left: 85px; */
       /* justify-content: center;
       align-items: center; */
-      margin-left: 15px;
+      margin-left: 10px;
     }
 
     .inputList{
-      min-width: 640px;
-      font-size: 24px;
+      max-width:10px;
+      font-size: 14px;
       margin-bottom: 10px;
-      height: 35px;
+      height: 5px;
 
     
     }
@@ -72,12 +72,12 @@
       margin-left: 15px;
         display: flex;
         flex-direction: column; /* Alinea el label encima del input */
-        gap: 20px; /* Espacio entre el label y el input */
+        gap: 5px; /* Espacio entre el label y el input */
       }
 
       label {
         color: rgb(240, 255, 249);
-        font-size: 25px;
+        font-size: 15px;
         font-family: sans-serif;
       }
       .divider_Container {
