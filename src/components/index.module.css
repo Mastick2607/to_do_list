@@ -1,0 +1,118 @@
+body {
+  background-color: rgb(34, 33, 33);
+  height: 100%;
+  margin: 0;
+}
+
+.container_father {
+  margin-top: 100px;
+  width: 850px; /* Puedes ajustar el ancho según tus necesidades */
+  padding: 20px;
+  background-color: #3b3b3b; /* Color de fondo para que se vea mejor */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+  /* margin-bottom: 100px; */
+  position: absolute;
+  top: 40%; /* Cambia este valor a menos del 50% para subir el contenedor */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height:700px; 
+  display: flex;
+  flex-direction: column;
+  /* overflow: hidden;
+   */
+
+
+}
+
+.container_child {
+  display: flex;
+  align-items: center;
+  /* overflow-y: auto; */
+  gap: 30px; /* Espacio entre los elementos */
+  /* flex-direction: column;  */
+  /* margin-bottom: 15px;  */
+  flex-wrap: wrap;
+  max-height: 520px;
+  /* flex-grow: 1; */
+  /* overflow-y: hidden; */
+  /* border: 2px solid red; */
+}
+
+@media (max-width: 1024px) {
+  .container_father {
+    margin-top: 100px;     
+      margin-top: 215px;
+       width: 90%;
+    height: auto;
+    top: 20%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container_father {
+    margin-top: 269px;
+    width: 710px;
+    top: 24%;
+    left: 48.6%;
+    padding: 5px;
+    height:990px;
+    position: absolute; 
+    transform: translate(-50%, -50%);
+
+  }
+  /* .container_father {
+    margin-top: 100px;
+    width: 850px; 
+    padding: 20px;
+    background-color: #3b3b3b;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    position: absolute;
+    top: 40%; 
+    left: 52%;
+    transform: translate(-50%, -50%);
+    height:700px; 
+    display: flex;
+    flex-direction: column;
+
+  
+  }
+   */
+  .container_child {
+    /* flex-direction: column; */
+    gap: 15px;
+  }
+  @media (max-width: 480px) {
+    .container_father {
+      margin-top: 260px;
+      width: 540px;
+      top: 24%;
+      left: 60%;
+      padding: 5px;
+      height:820px;
+      position: absolute; 
+      transform: translate(-50%, -50%);
+  
+    }
+
+  }
+  
+}
+
+@media (max-width: 320px) {
+  .container_father {
+    margin-top: 220px;
+    width: 450px;
+    top: 24%;
+    left: 72%;
+    padding: 5px;
+    height:620px;
+    position: absolute; 
+    transform: translate(-50%, -50%);
+
+  }
+
+
+}
