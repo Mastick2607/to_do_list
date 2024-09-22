@@ -49,30 +49,33 @@
     margin: 0; /* Elimina el margen predeterminado del hr */
   }
   
-  @media (max-width: 720px) {
+  @media (min-width: 720px) {
     .agregar {
-      width: 94%;
-      font-size: 20px;
-      height: 40px;
+      width: 90%;
+      font-size: 15px;
+      height: 35px;
       /* left: 85px; */
       /* justify-content: center;
       align-items: center; */
-      margin-left: 10px;
+      margin-left: 13px;
     }
 
     .inputList{
-      max-width:30px;
+      min-width:100px;
       font-size: 14px;
-      margin-bottom: 10px;
-      height: 5px;
+      margin-bottom:-5px;
+      height: 2px;
 
     
     }
     .input_label_group {
+            width: 240px;
       margin-left: 15px;
         display: flex;
         flex-direction: column; /* Alinea el label encima del input */
         gap: 5px; /* Espacio entre el label y el input */
+       /* border: solid red 2px; */
+ 
       }
 
       label {
