@@ -84,7 +84,7 @@ body {
     /* flex-direction: column; */
     gap: 15px;
     margin-top: -35px;
-    border: solid red 2px;
+    border: solid rgb(0, 255, 179) 2px;
   }
   @media (max-width: 480px) {
     .container_father {
