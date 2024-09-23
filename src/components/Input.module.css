@@ -49,38 +49,36 @@
     margin: 0; /* Elimina el margen predeterminado del hr */
   }
   
-  @media (min-width: 720px) {
+  @media (min-width: 721px) and (max-width: 1024px) {
+
     .agregar {
-      width: 90%;
-      font-size: 15px;
-      height: 35px;
+      width: 94%;
+      font-size: 25px;
+      height: 50px;
       /* left: 85px; */
       /* justify-content: center;
       align-items: center; */
-      margin-left: 13px;
+      margin-left: 15px;
     }
 
     .inputList{
-      max-width:40px;
-      font-size: 14px;
-      margin-bottom:-5px;
-      height: 2px;
+      min-width: 640px;
+      font-size: 24px;
+      margin-bottom: 10px;
+      height: 35px;
 
     
     }
     .input_label_group {
-            width: 240px;
       margin-left: 15px;
         display: flex;
         flex-direction: column; /* Alinea el label encima del input */
-        gap: 5px; /* Espacio entre el label y el input */
-       border: solid red 2px;
- 
+        gap: 20px; /* Espacio entre el label y el input */
       }
 
       label {
         color: rgb(240, 255, 249);
-        font-size: 15px;
+        font-size: 25px;
         font-family: sans-serif;
       }
       .divider_Container {
@@ -99,16 +97,16 @@
     
     
   }
-  @media (min-width: 480px) {
+  @media (min-width: 481px) and (max-width: 720px) {
 
     .agregar {
-      width: 95%;
+      width: 94%;
       font-size: 20px;
-      height: 60px;
+      height: 45px;
       /* left: 85px; */
       /* justify-content: center;
       align-items: center; */
-      margin-left: 45px;
+      margin-left: 15px;
     }
 
     .inputList{
@@ -125,8 +123,6 @@
         flex-direction: column; /* Alinea el label encima del input */
         gap: 5px; /* Espacio entre el label y el input */
       margin-top:-8px;
-      border: solid red 2px;
-
       }
 
       label {
@@ -147,21 +143,20 @@
       } 
   }
 
-  @media (min-width: 320px) {
-   
+  @media (min-width: 320px) and (max-width: 480px) {    
     .agregar {
-      width: 90%;
+      width: 94%;
       font-size: 20px;
       height: 40px;
       /* left: 85px; */
       /* justify-content: center;
       align-items: center; */
       margin-left: 15px;
-      margin-top: -10px;
+      margin-top: -20px;
     }
 
     .inputList{
-      min-width: 310px;
+      min-width: 315px;
       font-size: 20px;
       margin-bottom: 10px;
       height: 10px;
@@ -173,8 +168,7 @@
         display: flex;
         flex-direction: column; /* Alinea el label encima del input */
         gap: 5px; /* Espacio entre el label y el input */
-      margin-top:-15px;
-      
+      margin-top:-25px;
       }
 
       label {
@@ -185,8 +179,8 @@
       }
       .divider_Container {
         width: 100%;
-        margin-top: 1px; /* Ajusta el espacio superior según tus necesidades */
-       margin-bottom:20px;
+        margin-top: -15px; /* Ajusta el espacio superior según tus necesidades */
+       /* margin-bottom:20px; */
       }
     
       .divider {

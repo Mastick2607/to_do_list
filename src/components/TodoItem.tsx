@@ -25,7 +25,7 @@ function TodoItem(props: Props) {
         <h2>{lista}</h2>
         <p> {descripcion}</p>
 
-        <p className={`${isCompleted ? `${item.fecha}` : `${item.fecha_2}`} `}>Terminada en la fecha {date}</p>
+        <p className={`${isCompleted ? `${item.fecha}` : `${item.fecha_2}`} `}>Completed on date {date}</p>
       </div>   
       <div>
         <i onClick={() => deleteTodo(id)} className={`fa-regular fa-trash-can ${item.icon}`}></i>
